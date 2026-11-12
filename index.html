@@ -1,7 +1,9 @@
 <!DOCTYPE html>
+<!-- created by Teif Amra on 11/11/2026-->
 <html lang="eng-ca">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise 8: Responsive Web Design</title>
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto" rel="stylesheet"> 
     <style>
@@ -14,7 +16,24 @@
       /* Responsive Design Additions */
 
       /*your CSS will go here*/
-
+      @media screen and (max-width: 599px) {
+        body {
+        background-color: yellow;
+        font-size: 0.75em;
+        }
+        img, p {
+          width: 100%
+        }
+      }
+      
+      @media screen and (min-width: 600px){
+        img {
+          width: 800px;
+        }
+        p {
+          width: 600px;
+        }
+      }
       /* misc. styling */
 
       ul a {
